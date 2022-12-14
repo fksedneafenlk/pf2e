@@ -8,7 +8,7 @@ const SIZE_SLUGS = ["tiny", "small", "medium", "large", "huge", "gargantuan"] as
 type Size = typeof SIZES[number];
 
 /** The rarity trait of creatures, equipment, spells, etc. */
-const RARITIES = ["common", "uncommon", "rare", "unique"] as const;
+const RARITIES = ["source", "local", "nearby", "distant", "common", "uncommon", "rare", "unique"] as const;
 type Rarity = typeof RARITIES[number];
 
 interface ValuesList<T extends string = string> {
